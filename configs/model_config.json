@@ -1,0 +1,22 @@
+{
+  "Model 1": {
+    "k" : 3,
+    "max-iterations": 300
+  },
+  "Model 2": {
+    "k" : 5,
+    "max-iterations": 300
+  },
+  "Model 3": {
+    "k" : 7,
+    "max-iterations": 300
+  },
+  "Model 4": {
+    "k" : 10,
+    "max-iterations": 300
+  },
+  "Model 5": {
+    "k" : 20,
+    "max-iterations": 300
+  }
+}

@@ -1,3 +1,10 @@
+# setting path for user
+import sys
+import os
+current_dir = os.getcwd()
+sys.path.extend([current_dir])
+
+# main program starts here
 import numpy as np
 from scipy.spatial.distance import cdist
 from scipy.sparse import csr_matrix
@@ -94,7 +101,7 @@ if __name__ == "__main__":
     # create kmeans objects
     models = dict()
     for model in MODEL:
-        models[model] = KMeans(n_clusters=model["k"], max_iter=model["max-iterations"])
+        models[model] = KMeans(n_clusters=MODEL[model]["k"], max_iter=MODEL[model]["max-iterations"])
 
     # run all of them
     for model in models:

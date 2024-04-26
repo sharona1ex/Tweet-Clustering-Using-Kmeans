@@ -1,7 +1,7 @@
 import json
 
-model_config_path = "../../configs/model_config.json"
-data_config_path = "../../configs/data_config.json"
+model_config_path = "configs/model_config.json"
+data_config_path = "configs/data_config.json"
 
 
 def load_config(path):

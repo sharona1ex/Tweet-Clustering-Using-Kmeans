@@ -27,6 +27,7 @@ class KMeans:
         :return: centroid tweet of the cluster
         """
         actual_mean = np.mean(points, axis=0)
+        # emphasize those words which have frequency closer to the most frequent words
         minimum, maximum = np.min(actual_mean), np.max(actual_mean)
         centroid = np.where(actual_mean >= (maximum + minimum) / 2, 1, 0)
         return centroid

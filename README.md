@@ -40,3 +40,7 @@ Size of each cluster:
 3: 680 tweets
 ...
 ```
+
+## Results of K-means
+
+<img src="https://github.com/StarRider/Tweet-Clustering-Using-Kmeans/assets/30108439/61781b49-8753-4cde-91ea-c58b89a896f8" width="750">

@@ -44,3 +44,9 @@ Size of each cluster:
 ## Results of K-means
 
 <img src="https://github.com/StarRider/Tweet-Clustering-Using-Kmeans/assets/30108439/61781b49-8753-4cde-91ea-c58b89a896f8" width="750">
+
+## Some clustered news
+Showing the 500th and 699th cluster of health tweets...
+
+![image](https://github.com/StarRider/Tweet-Clustering-Using-Kmeans/assets/30108439/788b135d-f395-4f86-b14e-91bff735002d)
+

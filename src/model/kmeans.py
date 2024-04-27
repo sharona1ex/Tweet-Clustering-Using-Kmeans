@@ -10,6 +10,7 @@ from scipy.spatial.distance import cdist
 from scipy.sparse import csr_matrix
 from src.data.preprocess import load_data, convert_to_zero_one_matrix
 from src.helper.config import MODEL, DATA
+import pickle
 
 
 class KMeans:
@@ -101,9 +102,14 @@ if __name__ == "__main__":
     # create kmeans objects
     models = dict()
     for model in MODEL:
-        models[model] = KMeans(n_clusters=MODEL[model]["k"], max_iter=MODEL[model]["max-iterations"])
+        if not os.path.isfile('models/{}.pkl'.format(model)):
+            models[model] = KMeans(n_clusters=MODEL[model]["k"], max_iter=MODEL[model]["max-iterations"])
 
     # run all of them
     for model in models:
         models[model].fit(X)
         models[model].summary()
+        # save the models
+        with open('models/{}.pkl'.format(model), 'wb') as file:
+            # Use pickle.dump() to save the object to the file
+            pickle.dump(models[model], file)

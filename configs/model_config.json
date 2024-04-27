@@ -18,5 +18,29 @@
   "Model 5": {
     "k" : 20,
     "max-iterations": 300
+  },
+  "Model 6": {
+    "k" : 50,
+    "max-iterations": 500
+  },
+  "Model 7": {
+    "k" : 100,
+    "max-iterations": 500
+  },
+  "Model 8": {
+    "k" : 150,
+    "max-iterations": 500
+  },
+  "Model 9": {
+    "k" : 200,
+    "max-iterations": 500
+  },
+  "Model 10": {
+    "k" : 400,
+    "max-iterations": 500
+  },
+  "Model 11": {
+    "k" : 700,
+    "max-iterations": 500
   }
 }

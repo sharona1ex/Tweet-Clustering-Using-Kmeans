@@ -1,7 +1,7 @@
 # Tweet-Clustering-Using-Kmeans
 
 ## Objective
-Implement the tweet clustering function using the Jaccard Distance metric and K-means clustering algorithm to cluster redundant/repeated tweets into the same cluster. The K-means algorithm is to be developed from scratch.
+Implement the tweet clustering function using the Jaccard Distance metric and K-means clustering algorithm to cluster redundant/repeated tweets into the same cluster. **The K-means algorithm is to be developed from scratch**.
 
 ## Motivation
 Twitter provides a service for posting short messages. In practice, many of the tweets are very 

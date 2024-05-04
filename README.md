@@ -16,7 +16,7 @@ K-means algorithm uses numerical values to compute distances and new centroids. 
 ## Dataset
 We are going to use the following dataset for this exercise: [Link](https://archive.ics.uci.edu/ml/datasets/Health+News+in+Twitter)
 
-There about 16 datasets within this tweet collection. We have chosen `bbchealth.txt` for this project.
+There are about 16 datasets within this tweet collection. We have chosen `bbchealth.txt` for this project.
 
 ## How to run this code?
 1. Install the repository using this command: `git clone https://github.com/StarRider/Tweet-Clustering-Using-Kmeans.git`
